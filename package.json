@@ -50,15 +50,9 @@
     "prettier": "^2.2.1",
     "typescript": "^4.2.3"
   },
-  "browserslist": [
-    ">0.3%",
-    "not ie 11",
-    "not dead",
-    "not op_mini all"
-  ],
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn test"
     }
   },
   "lint-staged": {
@@ -71,6 +65,12 @@
       "git add ."
     ]
   },
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all"
+  ],
   "next-unused": {
     "alias": {
       "@lib/*": [
