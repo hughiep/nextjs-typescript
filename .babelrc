@@ -9,28 +9,5 @@
         }
       }
     ]
-  ],
-  "plugins": [
-    [
-      "module-resolver",
-      {
-        "root": ["./"],
-        "alias": {
-          "@components": "./src/components",
-          "@api": "./src/pages/api",
-          "@models": "./src/models",
-          "@pages": "./src/pages",
-          "@hooks": "./src/hooks",
-          "@services": "./src/services",
-          "@constants": "./src/constants",
-          "@context": "./src/context",
-          "@queries": "./src/queries",
-          "@typeDefs": "./src/types",
-          "@generated": "./src/generated",
-          "@utils": "./src/utils",
-          "@public": "./public"
-        }
-      }
-    ]
   ]
 }
